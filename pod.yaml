@@ -1,15 +1,15 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  creationTimestamp: "2024-08-21T12:09:08Z"
+  creationTimestamp: "2025-01-02T07:22:14Z"
   labels:
     run: nginx
   name: nginx
   namespace: default
-  resourceVersion: "75098"
-  uid: 7ebcfa87-454c-4b2e-b0b1-bb7274a73748
+  resourceVersion: "23412"
+  uid: 14bc525b-9786-4eb7-bc66-50848aa3e034
 spec:
   containers:
   - image: nginx
     name: nginx
-  nodeName: cka-cluster3-worker
+  nodeName: minikube 

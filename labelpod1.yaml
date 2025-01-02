@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: "2025-01-02T07:22:14Z"
+  labels:
+    run: nginx
+    tier: frontend
+    type: app1
+  name: nginx
+  namespace: default
+  resourceVersion: "23412"
+  uid: 14bc525b-9786-4eb7-bc66-50848aa3e034
+spec:
+  containers:
+  - image: nginx
+    name: nginx
+  nodeName: minikube 
